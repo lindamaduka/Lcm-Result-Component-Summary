@@ -20,7 +20,7 @@ It displays a user’s result on the left and a detailed category breakdown on t
 
 ## Live Site Link
 
-[View Live Demo on Netlify]()
+[View Live Demo on Netlify](https://lindasresultsummary.netlify.app/)
 
 ## Technologies Used
 
