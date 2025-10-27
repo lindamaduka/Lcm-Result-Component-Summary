@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Results Summary Component</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="sr-only" id="page-title">Results Summary Component</h1>
+
+    <main class="component-card" role="main" aria-labelledby="page-title">
+      <section class="results" aria-labelledby="results-title">
+        <h2 id="results-title">Your Result</h2>
+
+        <div class="score-circle" role="img" aria-label="Score 76 out of 100">
+          <div class="score-content">
+            <span class="score-number">76</span>
+            <span class="score-label">of 100</span>
+          </div>
+        </div>
+
+        <h3 class="results-rating">Great</h3>
+        <p class="results-description">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </section>
+
+      <section class="summary" aria-labelledby="summary-title">
+        <h2 id="summary-title">Summary</h2>
+
+        <ul class="category-list" role="list">
+          <li class="category-item category-reaction">
+            <span class="category-icon" aria-hidden="true">
+              <img
+                src="images/icon-reaction.svg"
+                alt="reaction icon"
+                width="24"
+                height="24"
+              />
+            </span>
+            <span class="category-label">Reaction</span>
+            <span class="category-score">
+              <strong>80</strong> <span class="score-max">/ 100</span>
+            </span>
+          </li>
+
+          <li class="category-item category-memory">
+            <span class="category-icon" aria-hidden="true">
+              <img
+                src="images/icon-memory.svg"
+                alt="memory icon"
+                width="24"
+                height="24"
+              />
+            </span>
+            <span class="category-label">Memory</span>
+            <span class="category-score">
+              <strong>92</strong> <span class="score-max">/ 100</span>
+            </span>
+          </li>
+
+          <li class="category-item category-verbal">
+            <span class="category-icon" aria-hidden="true">
+              <img
+                src="images/icon-verbal.svg"
+                alt="verbal icon"
+                width="24"
+                height="24"
+              />
+            </span>
+            <span class="category-label">Verbal</span>
+            <span class="category-score">
+              <strong>61</strong> <span class="score-max">/ 100</span>
+            </span>
+          </li>
+
+          <li class="category-item category-visual">
+            <span class="category-icon" aria-hidden="true">
+              <img
+                src="images/icon-visual.svg"
+                alt="visual icon"
+                width="24"
+                height="24"
+              />
+            </span>
+            <span class="category-label">Visual</span>
+            <span class="category-score">
+              <strong>73</strong> <span class="score-max">/ 100</span>
+            </span>
+          </li>
+        </ul>
+
+        <button class="btn-continue" type="button">Continue</button>
+      </section>
+    </main>
+  </body>
+</html>
