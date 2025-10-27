@@ -1,0 +1,2 @@
+# Lcm Result Component Summary
+
